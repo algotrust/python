@@ -1,0 +1,8 @@
+Jupyter
+Numpy
+Pandas
+Matplotlib
+PyTorch
+Spacy
+BeautifulSoup
+
