@@ -1,8 +1,15 @@
-Jupyter
-Numpy
-Pandas
-Matplotlib
-PyTorch
-Spacy
-BeautifulSoup
+Jupyter - IDE
+Numpy - Numerical Methods
+Pandas - DataFrame
+Matplotlib / seaborn - Visualisation
+scikit-learn - Machine Learning
+yfinance - Getting Finance Data from Yahoo
+Spacy - NLP
+BeautifulSoup - Webscraping
+PyTorch / Keras - Deep Learning
 
+-------------
+
+Algebra
+Probability
+Statistics
