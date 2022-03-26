@@ -1,13 +1,13 @@
 Jupyter - IDE
 Numpy - Numerical Methods
+Scipy
 Pandas - DataFrame
 Matplotlib / seaborn - Visualisation
 scikit-learn - Machine Learning
-yfinance - Getting Finance Data from Yahoo
 Spacy - NLP
-BeautifulSoup - Webscraping
 PyTorch / Keras - Deep Learning
-
+BeautifulSoup - Webscraping
+yfinance - Getting Finance Data from Yahoo
 -------------
 
 Algebra
