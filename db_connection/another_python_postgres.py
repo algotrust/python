@@ -2,10 +2,10 @@ import psycopg2
 
 
 conn = pg.connect(
-         host='192.168.1.75',
-         database='dev',
-         username='dev',
-         password='dev123'
+         host='<ip>>',
+         database='<dbanme>',
+         username='<username>',
+         password='<pass>'
          )
 
 SQLselect=  '''

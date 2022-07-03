@@ -8,7 +8,7 @@ import time
 start_time = time.time()
 
 def main():
-	conn_string = "host='192.168.1.75' dbname='dev' user='dev' password='dev123'"
+	conn_string = "host='<hostname>' dbname='<dbname>' user='<username>' password='<pass>'"
 	# print the connection string we will use to connect
 	print("Connecting to database\n	->%s" % (conn_string))
 

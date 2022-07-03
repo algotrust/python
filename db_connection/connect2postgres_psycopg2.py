@@ -4,11 +4,11 @@ import time
 start_time = time.time()
 
 before_connect = time.time()
-conn = psycopg2.connect(database="dev",
-                        host="192.168.1.75",
-                        user="dev",
-                        password="dev123",
-                        port="5432")
+conn = psycopg2.connect(database="<dbname>",
+                        host="<ip>",
+                        user="<user>",
+                        password="<pass>",
+                        port="<port>")
 
 
 

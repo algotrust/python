@@ -7,7 +7,7 @@ import time
 start_time = time.time()
 
 before_engine = time.time()
-engine = create_engine('postgresql://dev:dev123@192.168.1.75/dev')
+engine = create_engine('postgresql://<username>>:<pass>@<hostname>/<dbname>')
 after_engine = time.time()
 #connection = engine.connect()
 
