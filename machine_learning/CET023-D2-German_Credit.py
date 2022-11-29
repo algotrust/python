@@ -130,8 +130,8 @@ print('accuracy is ',(cm[0,0] + cm[1,1])/(sum(sum(cm))))
 
 # Optimisation -- all the models with overfitting
 # using max_depth
-grid = GridSearchCV(estimator=model , param_grid = dict(max_depth=[i for i in range(1,20)]),cv = 10)
 model = tree.DecisionTreeClassifier()
+grid = GridSearchCV(estimator=model , param_grid = dict(max_depth=[i for i in range(1,20)]),cv = 10)
 grid = grid.fit(X_train , Y_train)
 print(grid.best_params_)
 print(grid.best_score_)
